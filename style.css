@@ -106,6 +106,13 @@
   border-radius: 20px;
   background-color: #031227;
   padding: 39px 40px;
+  cursor: pointer;
+}
+.svg_hover{
+  transition: all linear 0.3s;
+}
+.svg_hover:hover{
+transform: translateY(-10px);
 }
 
 .card_heading {
@@ -194,6 +201,7 @@
   max-width: 1200px;
   margin: 0 auto;
 }
+
 .timeline::after {
   content: '';
   position: absolute;
@@ -203,6 +211,7 @@
   left: 50%;
   margin-left: -3px;
 }
+
 .container_2 {
   padding: 10px 40px;
   position: relative;
@@ -248,7 +257,7 @@
 }
 
 .roadmap_para {
-  max-width: 404.58px;
+  max-width: 439.58px;
   color: var(--white);
   font-family: 'poppins', sans-serif;
   font-size: var(--fs_2xsm);
@@ -263,6 +272,7 @@
 .text_width {
   width: 786px;
 }
+
 .accordion-flush .accordion-item .accordion-button,
 .accordion-flush .accordion-item .accordion-button.collapsed {
   border-radius: 30px;
