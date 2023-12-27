@@ -97,6 +97,20 @@
 .ff_poppins {
     font-family: "poppins", sans-serif;
 }
+@media (max-width:1400px) {
+    :root{
+        --fs_xsm: 14px;
+        --fs_2xsm: 16px;
+        --fs_sm: 18px;
+        --fs_md: 16px;
+        --fs_lg: 21.744px;
+        --fs_xl: 25px;
+        --fs_2xl: 23px;
+        --fs_3xl: 36px;
+        --fs_4xl: 70px;
+    }
+    
+}
 
 @media (max-width:1200px) {
     :root{
@@ -121,7 +135,7 @@
         --fs_lg: 21.744px;
         --fs_xl: 25px;
         --fs_2xl: 16px;
-        --fs_3xl: 50px;
+        --fs_3xl: 28px;
         --fs_4xl: 70px;
     }
     
